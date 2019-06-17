@@ -14,6 +14,7 @@ import Layout from 'containers/layout';
 import Phones from 'containers/phones';
 import Phone from 'containers/phone';
 
+
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
 ))
